@@ -12,9 +12,9 @@ import java.time.Duration;
 import java.util.logging.Logger;
 
 @RestController
-public class UserController {
+public class FooController {
 
-    private static final Logger logger = Logger.getLogger(UserController.class.getName());
+    private static final Logger logger = Logger.getLogger(FooController.class.getName());
 
 
     @GetMapping(value = "/foos", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
